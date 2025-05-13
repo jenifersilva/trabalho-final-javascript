@@ -1,0 +1,16 @@
+{
+  "name": "trabalho-final-javascript",
+  "version": "1.0.0",
+  "main": "trabalho-final.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.2.2"
+  }
+}
