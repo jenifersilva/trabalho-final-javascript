@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/Mocha-8d6748?style=for-the-badge&logo=mocha&logoColor=white&link=https%3A%2F%2Fmochajs.org%2F) ![Static Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white&link=https%3A%2F%2Fnodejs.org%2Fen%2Fdownload)
+[![Mocha](https://img.shields.io/badge/Mocha-8d6748?style=for-the-badge&logo=mocha&logoColor=white)](https://mochajs.org/) [![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download)
 
 
 # trabalho-final-javascript
