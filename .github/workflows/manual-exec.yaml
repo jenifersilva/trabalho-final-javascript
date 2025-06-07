@@ -4,15 +4,17 @@ on:
   workflow_dispatch:
 
 jobs:
-  e2e-tests:
+  testes:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Copia os arquivos do projeto para a máquina de execução
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Configuração do Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: latest
+          node-version: 24
 
       - name: Instalação das dependências do projeto
         run: npm install
