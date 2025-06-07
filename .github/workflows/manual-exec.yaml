@@ -19,5 +19,5 @@ jobs:
       - name: Instalação das dependências do projeto
         run: npm install
 
-      - name: Execução dos testes
+      - name: Execução dos testes unitários
         run: npx mocha testes/trabalho-final.js
