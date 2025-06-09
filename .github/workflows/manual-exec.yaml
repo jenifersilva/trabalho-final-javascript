@@ -20,4 +20,13 @@ jobs:
         run: npm install
 
       - name: Execução dos testes unitários
-        run: npx mocha testes/trabalho-final.js
+        run: npm test
+      
+      - name: Publica o resultado dos testes
+        uses: dorny/test-reporter@v2
+        if: always()
+        with:
+          name: Mocha Unit Tests
+          path: test-results.xml
+          reporter: jest-junit
+          fail-on-error: false

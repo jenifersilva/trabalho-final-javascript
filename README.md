@@ -25,5 +25,5 @@ Trabalho final da disciplina de Programação para Automação de Testes da Pós
 
     ```
     cd caminho_para_o_projeto/
-    npx mocha testes/trabalho-final.js
+    npm test
     ```

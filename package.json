@@ -4,7 +4,7 @@
   "main": "trabalho-final.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha testes --reporter mocha-junit-reporter"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "mocha": "^11.2.2"
+  },
+  "dependencies": {
+    "mocha-junit-reporter": "^2.2.1"
   }
 }
